@@ -25,17 +25,17 @@ main{
     width: calc(100% - 200px);
     height: calc(100vh - 54px);
     padding-top: 50px;
-    margin-left: 197px;
+    margin-left: 200px;
 }
-.bunner{
+.banner{
     width: 100%;
    
 }
-.bunner > .container {
+.banner > .container {
     width: 100%;
     max-width: inherit;
 }
-.buttonbunner > button {
+.buttonbanner > button {
     background-color: #165bba;
 }
 .imgtable {
