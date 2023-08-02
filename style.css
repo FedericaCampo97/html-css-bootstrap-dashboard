@@ -55,6 +55,13 @@ td > button > i {
 td{
     padding: 10px
 }
+.button_newstudent {
+    border: white 1px solid!important;
+}
+.menu_plus {
+    width: 900px!important;
+    max-width: 100%;
+}
 @media screen and (max-width: 575px) {
     .sidebar {
         min-width: 0;
@@ -63,13 +70,39 @@ td{
         width: calc(100% - 52px);
         margin-left: 52px;
     }
+    .new_student {
+        order: 1;
+        margin-top: 20px!important;
+    }
+    .boolean_button {
+        order: 2;
+    }
+    .online_student {
+        order: 3;
+    }
+    .hide{
+        display: none;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
+    .hide{
+        display: none;
+    }
     .sidebar {
         min-width: 0;
     }
     .desktop {
         width: calc(100% - 63px);
         margin-left: 63px;
+    }
+    .new_student {
+        order: 1;
+        margin-top: 20px!important;
+    }
+    .boolean_button {
+        order: 2;
+    }
+    .online_student {
+        order: 3;
     }
 }
